@@ -10,7 +10,7 @@ export function Navigation({ activeSection, setActiveSection }) {
     { id: "skills", label: "Skills" },
     { id: "projects", label: "Projects" },
     { id: "certifications", label: "Certifications" },
-    { id: "blogs", label: "Blogs" },
+    { id: "blogs", label: "Work Experience" },
     { id: "contact", label: "Contact" }
   ];
 
