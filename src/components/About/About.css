@@ -1,0 +1,22 @@
+.about-section {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #8bc1fa;
+}
+
+.about-text {
+  color: #d1d5db;
+  line-height: 3;
+  font-size:1.2rem;
+}

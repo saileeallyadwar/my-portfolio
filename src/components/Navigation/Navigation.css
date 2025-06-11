@@ -1,0 +1,81 @@
+.navigation {
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  background-color: rgba(17, 24, 39, 0.9);
+  backdrop-filter: blur(8px);
+  padding: 0.75rem 0;
+  font-family: sans-serif;
+  overflow: hidden; /* Added this to prevent scrollbar */
+}
+
+.nav-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #8bbffa;
+  white-space: nowrap;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto; /* Changed from auto to visible */
+  padding-bottom: 4px; /* Space for hover effect */
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+}
+
+.nav-link.active {
+  background-color: #338cea;
+  color: white;
+}
+
+.nav-link:not(.active) {
+  color: #d1d5db;
+}
+
+.nav-link:not(.active):hover {
+  background-color: #1f2937;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.nav-links::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.nav-links {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+@media (max-width: 768px) {
+  .nav-logo {
+    display: none;
+  }
+  
+  .nav-links {
+    gap: 0.25rem;
+  }
+  
+  .nav-link {
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+  }
+}
