@@ -27,8 +27,9 @@ const projects = [
   },
   {
     title: "Smart Medical Imaging",
-    desc: "A web-based tool that helps doctors and researchers easily upload and convert medical TIFF images into PNG format. Built with Flask and an HTML frontend, the system processes and returns clean PNGs ready for download. Ideal for use in pathology and diagnostic workflows.",
-    tech: "Python 3.9.13, Flask, TensorFlow 2.15, Keras 2.15, Matplotlib 3.9.0",
+    desc: "A full-stack medical imaging web app that denoises fibril TIFF images using deep learning and converts them into PNG format. Built to assist doctors in clearer diagnostics with easy upload, processing, and download features.",
+    tech: "Flask, HTML/CSS, Python 3.9.13, TensorFlow 2.15, Keras 2.15, Matplotlib 3.9.0",
+    link: "https://github.com/saileeallyadwar/fibril-app",
   }
 ];
 
