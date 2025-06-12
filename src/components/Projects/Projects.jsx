@@ -7,6 +7,7 @@ const projects = [
     title: "Smart Attendance App",
     desc: "Collaborated on a group project to develop an attendance app that prevents proxy attendance using face recognition and location-based verification.",
     tech: "Python, Firebase, OpenCV",
+    link: "https://smart-attendance-app-seven.vercel.app"
   },
   {
     title: "DataSpark",
