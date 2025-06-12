@@ -30,7 +30,7 @@ const projects = [
     desc: "A full-stack medical imaging web app that denoises fibril TIFF images using deep learning and converts them into PNG format. Built to assist doctors in clearer diagnostics with easy upload, processing, and download features.",
     tech: "Flask, HTML/CSS, Python 3.9.13, TensorFlow 2.15, Keras 2.15, Matplotlib 3.9.0",
     link: "https://github.com/saileeallyadwar/fibril-app",
-  }
+  },
 ];
 
 export function Projects({ setActiveSection }) {
