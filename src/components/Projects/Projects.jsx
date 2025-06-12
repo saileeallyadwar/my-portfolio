@@ -25,6 +25,11 @@ const projects = [
     desc: "Developed a prototype to monitor water levels in real-time at a waterfall, enhancing safety by detecting hazardous water fluctuations.",
     tech: "Arduino, IoT, Sensors",
   },
+  {
+    title: "Smart Medical Imaging",
+    desc: "A web-based tool that helps doctors and researchers easily upload and convert medical TIFF images into PNG format. Built with Flask and an HTML frontend, the system processes and returns clean PNGs ready for download. Ideal for use in pathology and diagnostic workflows.",
+    tech: "Python 3.9.13, Flask, TensorFlow 2.15, Keras 2.15, Matplotlib 3.9.0",
+  }
 ];
 
 export function Projects({ setActiveSection }) {
